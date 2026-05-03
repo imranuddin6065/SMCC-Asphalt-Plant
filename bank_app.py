@@ -3,7 +3,13 @@ import pandas as pd
 from fpdf import FPDF
 import io
 from datetime import datetime
-from gsheetsdb import connect # Google Sheets connect karne ke liye
+import streamlit as st
+import pandas as pd
+from fpdf import FPDF
+import io
+from datetime import datetime
+import gspread # Sirf ye kaafi hai
+from google.oauth2.service_account import Credentials
 import gspread # Data likhne ke liye
 from google.oauth2.service_account import Credentials
 
